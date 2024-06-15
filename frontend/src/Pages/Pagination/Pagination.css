@@ -1,0 +1,61 @@
+/* Default styles for the Pagination Component */
+.pegination {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-top: 5px; /* Adjust as needed */
+    align-items: center;
+  }
+  
+  .pegination button {
+    background: linear-gradient(120deg, #47e3e3, #4e6ce4); /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    height: 50px !important;
+    width: 100px !important;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-left: 5px; /* Add some spacing between buttons */
+    cursor: pointer;
+  }
+  
+  /* Style the Page Number text */
+  .pegination span {
+    margin: 0 10px; /* Add spacing between the text and buttons */
+    font-weight: bold;
+  }
+  
+  /* Style disabled button with higher specificity */
+  .pegination button:disabled {
+    background: linear-gradient(#ccc, #ccc); /* Disabled button background color */
+    cursor: not-allowed;
+  }
+  
+  .show-pages {
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .pegination {
+      justify-content: center; /* Center-align items for smaller screens */
+    }
+  
+    .pegination button {
+      margin-left: 0; /* Remove margin between buttons for smaller screens */
+      margin-right: 5px; /* Add margin on the right side of buttons for spacing */
+    }
+  
+    .pegination span {
+      margin: 0; /* Remove margin between text and buttons for smaller screens */
+    }
+    .show-pages {
+    text-align: center;
+    padding:10px;
+  }
+  }
+  
+  .btn-primary:hover{
+     background: linear-gradient(155deg, #47e3e3, #4e6ce4) !important;
+     border:linear-gradient(155deg, #47e3e3, #4e6ce4) !important;
+  }

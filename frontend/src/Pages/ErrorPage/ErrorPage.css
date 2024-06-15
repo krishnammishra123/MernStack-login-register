@@ -1,0 +1,30 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .error-box {
+    margin: auto ;
+    text-align: center;
+    height: 300px !important;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 16px rgba(116, 47, 47, 0.1), 0 1px 3px rgba(74, 11, 11, 0.08);
+  }
+
+
+  
+  .error-heading {
+    font-size: 3em;
+    color: #ff0000; /* Red */
+  }
+  
+  .error-message {  
+    font-size: 2.0em;
+    font-family: sans-serif;
+    color: #333; /* Dark grey */
+  }
+  
